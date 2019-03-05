@@ -3,6 +3,6 @@
 #else
 #define ISBN_13_H
 
-extern uint8_t isbn13(const void *p);
+extern "C" uint8_t isbn13(const void *p);
 
 #endif
